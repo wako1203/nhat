@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBook - Đọc Sách Miễn Phí</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> -->
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='shortcut icon' href='image/image.psd-_2_.ico'/>
+
+</head>
+<body>
+    <!-- header section starts  -->
+
+<header class="header">
+    <div class="header-1">
+
+        <a href="index.html" class="logo"> <i class="fas fa-book"></i> Ebook </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Tìm sách..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <a href="#" class="logo"> <i class="fas fa-book"><i>Ebook</i></i></a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">Đề Cử</a>
+            <a href="#bookcase">Tủ Sách</a>
+            <a href="#categories">Phân Loại</a>
+            <a href="#writers">Tác Giả</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form starts -->
+
+<div class="login-form">
+
+    <form action="">
+       <div id="close-login-form" class="fas fa-times"></div>
+       <a href="#" class="logo-2"> <i class="fas fa-book-open"></i> eBook </a>
+       <h1>Trải nghiệm những cuốn sách tuyệt vời</h1>
+       <input type="email" name="" placeholder="nhập email" id="" class="box">
+       <input type="password" name="" placeholder="nhập mật khẩu" id="" class="box">
+       <div class="flex">
+          <input type="checkbox" name="" id="remember-me">
+          <label for="remember-me">ghi nhớ tài khoản</label>
+          <a href="#">Quên mật khẩu?</a>
+       </div>
+       <input type="submit" value="Đăng nhập" class="link-btn">
+       <p class="account">Bạn chưa có tài khoản? <a href="#">Đăng kí ngay!</a></p>
+    </form>
+ 
+ </div>
+ 
+ <!-- login form ends -->
+
+ <!-- home section starts-->
+ <section class="home" id="home">
+    <div class="row">
+
+        <div class="content">
+            <h3>Tủ sách của giới trẻ</h3>
+            <p>Đa dạng thể loại</p>
+            <a href="#bookcase" class="btn">Đọc ngay</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="AllProduct/CayViCam/CayViCam.html" class="swiper-slide"><img src="image/chientranh/cay-vi-cam-ave-maria.jpg" alt=""></a>
+                <a href="AllProduct/VoDe/VoDe.html" class="swiper-slide"><img src="image/traophung/vo-de-vu-trong-phung.jpg" alt=""></a>
+                <a href="AllProduct/NgonLua/NgonLua.html" class="swiper-slide"><img src="image/khoahoc/ngon-lua-than-ky-tran-quang-han.jpg" alt=""></a>
+                <a href="AllProduct/HanhLyHuVo/HanhLyHuVo.html" class="swiper-slide"><img src="image/butky/hanh-ly-hu-vo.jpg" alt=""></a>
+                <a href="AllProduct/ChiecBanLe/ChiecBanLe.html" class="swiper-slide"><img src="image/trinhtham/chiec-ban-le-cong-john-dickson-carr.jpg" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+        <div class="container">
+            <div class="box-container">
+        
+                <div class="box">
+                    <!-- <img src="image/book-1.png" alt=""> -->
+                    <h3>Thư Viện Ebook Miễn Phí</h3>
+                    <p>Nhà sách miễn phí được xây dựng nhằm chia sẻ sách ebook miễn phí cho những ai khó khăn, chưa có điều kiện mua sách.
+                        Nếu Bạn có điều kiện, Hãy mua sách giấy để ủng hộ Tác giả và Nhà xuất bản.</p>
+                </div>
+        
+                <div class="box">
+                    <!-- <img src="image/book-2.png" alt=""> -->
+                    <h3>Trải nghiệm những cuốn sách hay</h3>
+                    <p>Sách - nơi lưu giữ tinh hoa, tri thức, kinh nghiệm bổ ích. Hãy chọn cho bản thân những cuốn sách hay và phù hợp  để trải nghiệm chúng, hoặc là giải trí sau những giây phút căng thẳng của cuộc sống.</p>
+                </div>
+        
+            </div>
+        
+        </div>
+
+    </div>
+
+ </section>
+
+ <!-- home section ends -->
+
+ <!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Tác phẩm tiêu biểu</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/chientranh/co-lau.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cỏ Lau</h3>
+                    <a target="_blank" href="AllProduct/CoLau/CoLau.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/butky/du-hoc-0-dong-nhieu-tac-gia.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Du Học 0 Đồng</h3>
+                    <a target="_blank" href="AllProduct/DuHoc/DuHoc0Dong.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/traophung/34804163890_d5e9195c09_o.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>AQ Chính Truyện</h3>
+                    <a target="_blank" href="AllProduct/AQ/AQ.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/butky/toi-keo-xe.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tôi Kéo Xe</h3>
+                    <a target="_blank" href="AllProduct/ToiKeoXe/ToiKeoXe.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/khoinghiep/suc-manh-cua-tinh-khau.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sức Mạnh Của Tịnh Khẩu</h3>
+                    <a target="_blank" href="AllProduct/SucManh/SucManh.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/tanvan/doc-than-khong-co-don-blog-radio.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Độc Thân Không Cô Đơn</h3>
+                    <a target="_blank" href="AllProduct/DocThan/DocThan.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/khoahoc/ngon-lua-than-ky-tran-quang-han.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ngọn Lửa Thần Kỳ</h3>
+                    <a target="_blank" href="AllProduct/NgonLua/NgonLua.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/tieuthuyet/cay-vi-cam-ave-maria.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cây Vĩ Cầm Ave Maria</h3>
+                    <a target="_blank" href="AllProduct/CayViCam/CayViCam.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/butky/thien-ac-va-smartphone-dang-hoang-giang.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Thiện Ác Và Smartphone</h3>
+                    <a target="_blank" href="AllProduct/Smartphone/Smartphone.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/khoahoc/nen-tang-tam-ly-hoc-nicky-hayes.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Nền Tảng Tâm Lý Học</h3>
+                    <a target="_blank" href="AllProduct/TamLyHoc/TamLyHoc.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/trinhtham/chiec-ban-le-cong-john-dickson-carr.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Chiếc Bàn Lề Cong</h3>
+                    <a target="_blank" href="AllProduct/ChiecBanLe/ChiecBanLe.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- product section starts -->
+<section class="product" id="bookcase">
+    <h1 class="heading"> <span>Tủ Sách</span> </h1> <br>
+    
+        <div class="box-product">
+    
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/chientranh/que-noi-vo-quang.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Quê Nội</h3>
+                    <a target="_blank" href="AllProduct/QueNoi/QueNoi.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/traophung/vo-de-vu-trong-phung.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Vỡ Đê</h3>
+                    <a target="_blank" href="AllProduct/VoDe/VoDe.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/chientranh/song-xa.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sông Xa</h3>
+                    <a target="_blank" href="AllProduct/SongXa/SongXa.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/butky/toi-keo-xe.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tôi Kéo Xe</h3>
+                    <a target="_blank" href="AllProduct/ToiKeoXe/ToiKeoXe.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/butky/hon-nua-doi-hu.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Hơn Nửa Đời Hư</h3>
+                    <a target="_blank" href="AllProduct/HonNuaDoiHu/HonNuaDoiHu.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/butky/hanh-ly-hu-vo.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Hành Lý Hư Vô</h3>
+                    <a target="_blank" href="AllProduct/HanhLyHuVo/HanhLyHuVo.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/butky/hoi-ky-pham-duy.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Hồi Ký Phạm Duy</h3>
+                    <a target="_blank" href="AllProduct/HKPhamDuy/HKPhamDuy.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/butky/nho.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Nhớ</h3>
+                    <a target="_blank" href="AllProduct/Nho/Nho.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/traophung/khao-do-phon.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Khao</h3>
+                    <a target="_blank" href="AllProduct/Khao/Khao.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="image/chientranh/dat-lua.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Đất Lửa</h3>
+                    <a target="_blank" href="AllProduct/DatLua/DatLua.html" class="btn">Đọc ngay</a>
+                </div>
+            </div>
+
+            
+</section>
+<section class="pagination">
+    <a class="active" href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">&raquo;</a>
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+
+<section class="categories-container" id="categories">
+    <h1 class="heading"> <span>Thể loại</span> </h1> <br>
+
+    <div class="box-category">
+        <div class="categories">
+            <div class="icon">
+                <img src="image/chientranh/cay-vi-cam-ave-maria.jpg" alt="">
+            </div>
+            <div class="info">
+                <a target="_blank" href="catetgories/chientranh/Product1.html">
+                    <h3>Chiến tranh</h3>
+                </a>
+                <span>Mô tả
+                    <div class="more-info">Sách kể về những cuộc chiến đẫm máu, những mất mát cùng với sự đấu tranh sinh tồn của con ngườim, bên cạnh đó còn có những câu chuyện về tình người trong thời chiến.
+                </div>
+                </span>
+                
+            </div>
+        </div>
+    
+        <div class="categories">
+            <div class="icon">
+                <img src="image/traophung/muoi-ngay-giovanni-boccaccio.jpg" alt="">
+            </div>
+            <div class="info">
+                <a target="_blank" href="catetgories/traophung/Product21.html">
+                    <h3>Trào phúng</h3>
+                </a>
+                <span>Mô tả
+                    <div class="more-info">thể loại mang đậm yếu tố của tiếng cười mỉa mai, châm biếm, phóng đại, khoa trương, hài hước,… được sử dụng để chế nhạo, chỉ trích, tố cáo, phản kháng… những cái tiêu cực, xấu xa, lỗi thời, độc ác trong xã hội.
+                </div>
+                </span>
+                
+            </div>
+        </div>
+    
+        <div class="categories">
+            <div class="icon">
+                <img src="image/butky/ta-ba-lo-tren-dat-a-rosie-nguyen.jpg" alt="">
+            </div>
+            <div class="info">
+                <a target="_blank" href="catetgories/butky/Product31.html">
+                    <h3>Hồi ký - Bút ký</h3>
+                </a>
+                <span>Mô tả
+                    <div class="more-info"> thể loại rất gần với nhật ký, là những tác phẩm văn chương mang đậm tính cá nhân, tính bản ngã và bộc lộ hết những điều ẩn sâu, giấu kín bên trong một con người!
+                </div>
+                </span>
+                
+            </div>
+        </div>
+    
+        <div class="categories">
+            <div class="icon">
+                <img src="image/khoinghiep/suc-manh-cua-tri-tue-xa-hoi-tony-buzan.jpg" alt="">
+            </div>
+            <div class="info">
+                <a target="_blank" href="catetgories/khoinghiep/Product4.html">
+                    <h3>Kỹ năng sống - Khởi nghiệp</h3>
+                </a>
+                <span>Mô tả
+                    <div class="more-info">nội dung tinh tế, trực quan giúp thay đổi tư duy và có cách nhìn tốt hơn về cuộc sống. Thay đổi quan điểm , thay đổi cách nhìn nhận mọi vấn đề, thay đổi hành động để có được giải pháp tốt.
+                </div>
+                </span>
+            </div>
+        </div>
+    
+        <div class="categories">
+            <div class="icon">
+                <img src="image/tanvan/lo-chung-ta-fa-ca-doi-thi-sao_-thieu-nu-luc-yeu.jpg" alt="123">
+            </div>
+            <div class="info" title="12334">
+                <a target="_blank" href="catetgories/tanvan/Product5.html">
+                    <h3>Tản văn</h3>
+                </a>
+                <span>Mô tả
+                    <div class="more-info"> một tiểu loại kí ngắn gọn, hàm súc theo tùy hứng của tác giả, có thể bộc lộ trữ tình, tự sự hoặc nghị luận, thường là mấy thứ đan quyện nhau.
+                </div>
+                </span>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="icon">
+                <img src="image/tieuthuyet/muc-giay-va-sao-troi-kiran-millwood-hargrave.jpg" alt="">
+            </div>
+            <div class="info">
+                <a target="_blank" href="catetgories/tieuthuyet/Product6.html">
+                    <h3>Tiểu thuyết</h3>
+                </a>
+                <span>Mô tả
+                    <div class="more-info"> thể loại văn xuôi, thông quá những nhân vật có thể là hư cấu, sự kiện có thật hoặc không để phản ánh các vấn đề ở trong cuộc sống và xã hội. Thường mang tính kể chuyện, tường thuật gián tiếp theo những chủ đề nhất định nào đó.
+                </div>
+                </span>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="icon">
+                <img src="image/trinhtham/nguoi-rong.jpg" alt="">
+            </div>
+            <div class="info">
+                <a target="_blank" href="catetgories/trinhtham/Product7.html">
+                    <h3>Trinh thám</h3>
+                </a>
+                <span>Mô tả
+                    <div class="more-info">Thể loại truyện có tính logic, nội dung kịch tính và bất ngờ, khai thác sâu rộng vào hoàn cảnh xã hội cũng như tâm lý con người, cho chúng ta một cái nhìn sâu sắc hơn với mọi hoàn cảnh của cuộc sống, từ người tốt đến kẻ xấu, cái thiện-cái ác, nạn nhân hay thủ phạm,...
+                </div>
+                </span>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="icon">
+                <img src="image/khoahoc/6-phat-minh-lam-nen-thoi-dai-steven-johnson.jpg" alt="">
+            </div>
+            <div class="info">
+                <a target="_blank" href="catetgories/khoahoc/Product8.html">
+                    <h3>Khoa học - Tâm lý học</h3>
+                </a>
+                <span>Mô tả
+                    <div class="more-info">Nội dung lí giải những hiện tượng, những sự vật xung quanh chúng ta. Nghiên cứu về thế giới nội tâm của con người, đưa ra những gợi ý giúp chúng ta giải quyết nhiều vấn đề khác nhau trong cuộc sống.
+                </div>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- categories section ends -->
+
+<!-- writers section starts  -->
+
+<section class="writers" id="writers">
+
+    <h1 class="heading"> <span>tác giả tiêu biểu</span> </h1>
+
+    <div class="swiper writers-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box" data-name="writer-1">
+                <img src="image/anh-dai-dien-nha-van-chu-lai-e1590581624783.jpg" alt="">
+                <h3>Chu Lai</h3>
+                <p>
+                     Trong chiến tranh Việt Nam ông công tác trong đoàn kịch nói Tổng cục Chính 
+                     trị rồi trở thành chiến sĩ đặc công hoạt động trong vùng Sài Gòn. Ông biên tập và sáng tác cho Tạp chí Văn nghệ Quân đội. Nhà văn Chu Lai còn viết một số kịch bản sân khấu,
+                      kịch bản phim và tham gia đóng phim.</p>
+                
+            </div>
+
+            <div class="swiper-slide box" data-name="writer-2">
+                <img src="image/Nhavan_tô_hoài.jpg" alt="">
+                <h3>Tô Hoài</h3>
+                <p>Tô Hoài (tên khai sinh: Nguyễn Sen; 27 tháng 9 năm 1920 – 6 tháng 7 năm 2014)[1] là một nhà văn Việt Nam. Một số tác 
+                    phẩm đề tài thiếu nhi của ông được dịch ra ngoại ngữ. Ông được nhà nước Việt Nam trao tặng Giải thưởng Hồ Chí Minh về 
+                    Văn học – Nghệ thuật </p>
+                
+            </div>
+
+            <div class="swiper-slide box" data-name="writer-3">
+                <img src="image/Phamduy.jpg" alt="">
+                <h3>Phạm Duy</h3>
+                <p>Phạm Duy (5 tháng 10 năm 1921 – 27 tháng 1 năm 2013), tên khai sinh Phạm Duy Cẩn là nhạc sĩ, nhạc công, ca sĩ, nhà
+                     nghiên cứu âm nhạc lớn của Việt Nam. </p>
+                
+            </div>
+            <div class="swiper-slide box" data-name="writer-4">
+                <img src="image/Vuonghongsen.jpg" alt="">
+                <h3>Vương Hồng Sến</h3>
+                <p>Vương Hồng Sển (1902 – 1996), bút hiệu Anh Vương, Vân Đường, Đạt Cổ Trai, là một nhà văn hóa, học giả, nhà sưu tập đồ cổ
+                     Việt Nam. </p>
+                
+            </div>
+
+            <div class="swiper-slide box" data-name="writer-5">
+                <img src="image/john-dickson-carr-grrj-allfamous.org.jpg" alt="">
+                <h3>John Dickson Carr</h3>
+                <p>John Dickson Carr là một nhà văn bí ẩn người Mỹ, người cũng đã xuất bản dưới các bút danh Carter Dickson, Carr Dickson và Roger 
+                    Fairbairn. </p>
+            </div>
+
+            <div class="swiper-slide box" data-name="writer-6">
+                <img src="image/stephen-hawking-on-october-10-1979-in-princeton-new-jersey-photo-by-santi-visalligetty-images.jpg" alt="">
+                <h3>Stephen Hawking</h3>
+                <p>Stephen William Haᴡking (8 tháng 1 năm 1942 – 14 tháng 3 năm 2018) là một nhà ᴠật lý lý thuуết, nhà ᴠũ trụ họᴄ ᴠà táᴄ giả người Anh.
+                     </p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- writers section ends -->
+
+<!-- writers preview section starts  -->
+
+<section class="writer-preview-container">
+
+    <div id="close-preview" class="fas fa-times"></div>
+
+    <div class="writer-preview" data-target="writer-1">
+        <img src="image/anh-dai-dien-nha-van-chu-lai-e1590581624783.jpg" alt="">
+        <h3>Chu Lai</h3>
+        <p>Chu Lai có tên khai sinh là Chu Văn Lai, sinh ngày 5 tháng 2 năm 1946, tại xã Hưng Đạo, huyện Phù Tiên nay là huyện Tiên Lữ, 
+            tỉnh Hưng Yên, hiện đang ở Hà Nội. 
+             Trong chiến tranh Việt Nam ông công tác trong đoàn kịch nói Tổng cục Chính 
+             trị rồi trở thành chiến sĩ đặc công hoạt động trong vùng Sài Gòn. Ông biên tập và sáng tác cho Tạp chí Văn nghệ Quân đội. Nhà văn Chu Lai còn viết một số kịch bản sân khấu,
+              kịch bản phim và tham gia đóng phim.</p>
+    </div>
+
+    <div class="writer-preview" data-target="writer-2">
+        <img src="image/Nhavan_tô_hoài.jpg" alt="">
+        <h3>Tô Hoài</h3>
+        <p>Tô Hoài (tên khai sinh: Nguyễn Sen; 27 tháng 9 năm 1920 – 6 tháng 7 năm 2014)[1] là một nhà văn Việt Nam. Một số tác 
+            phẩm đề tài thiếu nhi của ông được dịch ra ngoại ngữ. Ông được nhà nước Việt Nam trao tặng Giải thưởng Hồ Chí Minh về 
+            Văn học – Nghệ thuật Đợt 1 (1996) cho các tác phẩm: Xóm giếng, Nhà nghèo, O chuột, Dế mèn phiêu lưu ký, Núi Cứu quốc, 
+            Truyện Tây Bắc, Mười năm, Xuống làng, Vỡ tỉnh, Tào lường, Họ Giàng ở Phìn Sa, Miền Tây, Vợ chồng A Phủ, Tuổi trẻ Hoàng
+             Văn Thụ.</p>
+    </div>
+
+    <div class="writer-preview" data-target="writer-3">
+        <img src="image/Phamduy.jpg" alt="">
+        <h3>Phạm Duy</h3>
+        <p>Phạm Duy (5 tháng 10 năm 1921 – 27 tháng 1 năm 2013), tên khai sinh Phạm Duy Cẩn là nhạc sĩ, nhạc công, ca sĩ, nhà
+             nghiên cứu âm nhạc lớn của Việt Nam. Ông được nhiều người đánh giá là nhạc sĩ lớn nhất của nền tân nhạc Việt Nam với lượng 
+             sáng tác đồ sộ cũng như đa dạng về thể loại, trong đó có rất nhiều ca khúc trở nên kinh điển và quen thuộc với người Việt.</p>
+    </div>
+
+    <div class="writer-preview" data-target="writer-4">
+        <img src="image/Vuonghongsen.jpg" alt="">
+        <h3>Vương Hồng Sến</h3>
+        <p>Vương Hồng Sển (1902 – 1996), bút hiệu Anh Vương, Vân Đường, Đạt Cổ Trai, là một nhà văn hóa, học giả, nhà sưu tập đồ cổ
+             Việt Nam. Ông được xem là người có hiểu biết sâu rộng về miền Nam và rất được kính trọng trong giới sử học và khảo cổ ở 
+             Việt Nam. Khi qua đời ông đã hiến tặng ngôi nhà (Vân đường phủ) và toàn bộ sưu tập đồ cổ của mình cho Nhà nước Việt Nam với hy vọng thành lập một bảo tàng mang tên ông</p>
+        
+    </div>
+
+    <div class="writer-preview" data-target="writer-5">
+        <img src="image/john-dickson-carr-grrj-allfamous.org.jpg" alt="">
+        <h3>John Dickson Carr</h3>
+        <p>John Dickson Carr là một nhà văn bí ẩn người Mỹ, người cũng đã xuất bản dưới các bút danh Carter Dickson, Carr Dickson và Roger 
+            Fairbairn. Carr được nhiều người coi là một trong những tác giả vĩ đại nhất của cái gọi là bí ẩn "thời kỳ vàng son"; Những câu 
+            chuyện phức tạp theo định hướng cốt truyện, trong đó các câu đố là điều tối quan trọng.</p>
+    </div>
+
+    <div class="writer-preview" data-target="writer-6">
+        <img src="image/stephen-hawking-on-october-10-1979-in-princeton-new-jersey-photo-by-santi-visalligetty-images.jpg" alt="">
+                <h3>Stephen Hawking</h3>
+                <p>Stephen William Haᴡking (8 tháng 1 năm 1942 – 14 tháng 3 năm 2018) là một nhà ᴠật lý lý thuуết, nhà ᴠũ trụ họᴄ ᴠà táᴄ giả người Anh,
+                     từng là giám đốᴄ nghiên ᴄứu tại Trung tâm Vũ trụ họᴄ 
+                    lý thuуết ở Đại họᴄ Cambridge ᴠào thời điểm ông qua đời.</p>
+     </div>
+
+ </section>
+
+ <!-- writes preview section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>Blogs</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="blog/images/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ngàn Hạc Giấy Của Sadako – Những Cánh Hạc Chở Khao Khát Hòa Bình</h3>
+                    <p>Ngàn hạc giấy của Sadako là một câu chuyện bi kịch, câu chuyện về cái chết, buồn thương, day dứt và khắc khoải...</p>
+                    <a href="blog/blog-2.html" class="btn">Đọc thêm</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="blog/images/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cây Vĩ Cầm Ave Maria: Quá Khứ Đau Thương Được Vẽ Bằng Âm Nhạc</h3>
+                    <p>Lấy bối cảnh về cuộc sống của những tù nhân trong dàn nhạc Trại tập trung Auschwitz của Đức Quốc Xã...</p>
+                    <a href="blog/blog-1.html" class="btn">Đọc thêm</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="blog/images/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cậu Ấm Ngây Thơ: Hành Trình Trưởng Thành</h3>
+                    <p>Do tuổi đời còn trẻ, cộng với thế giới quan chưa được mở mang nhiều trước khi rời Tokyo, 
+                        cậu ấm tin rằng lúc nào lẽ phải cũng thuộc về phía mình...</p>
+                    <a href="blog/blog-3.html" class="btn">Đọc thêm</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="blog/images/blog-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>'Hành Lý Hư Vô' - Sự Trở Lại Với Nỗi Buồn Của Nguyễn Ngọc Tư</h3>
+                    <p>Vào đúng khi bạn nhận ra có bao nhiêu đồ đạc cũng chẳng lấp nổi biển trong lòng...</p>
+                    <a href="blog/blog-4.html" class="btn">Đọc thêm</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="blog/images/blog-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>"Để Hôm Nay Trở Thành Kiệt Tác" – John C. Maxwell.</h3>
+                    <p>"Để hôm nay trở thành kiệt tác là một tác phẩm khá hay của Maxwell, 
+                        nó như là một nguồn sinh khí mới để tiếp thêm động lực cho các bạn tiến lên.</p>
+                    <a href="blog/blog-5.html" class="btn">Đọc thêm</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts -->
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#featured"> <i class="fas fa-arrow-right"></i> Đề cử </a>
+            <a href="#bookcase"> <i class="fas fa-arrow-right"></i> Tủ sách </a>
+            <a href="#categories"> <i class="fas fa-arrow-right"></i> Phân loại </a>
+            <a href="#writers"> <i class="fas fa-arrow-right"></i> Tác giả </a>
+            <a href="#blogs"> <i class="fas fa-arrow-right"></i> Blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> shanas@gmail.com </a>
+        </div>
+        
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="enter your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+        </div>
+    </div>
+
+    <div class="share">
+        <a href="#" class='fab fa-facebook-square' style='color:#3940f3'></a>
+        <a href="#" class='fab fa-twitter' style='color:#39acf3'></a>
+        <a href="#" class='fab fa-instagram' style='color:#e739f3'></a>
+        <a href="#" class='fab fa-telegram' style='color:#39a3f3'></a>
+    </div>
+
+    <div class="credit"> created by <span>ZAI-A</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
